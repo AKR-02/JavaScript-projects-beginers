@@ -1,0 +1,36 @@
+body {
+    background-color: #5816e9;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    margin: 200px auto;
+    background-image: url(Running.mp4);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    border: whitesmoke 2px solid;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.buttons i {
+    width: 50px;
+    cursor: pointer;
+}
+
+#displaytime {
+    display:block;
+    text-align:center;
+    font-size: 50px;
+}
